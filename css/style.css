@@ -1,0 +1,707 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Cormorant', serif;
+}
+
+/* navbar */
+#navbar nav {
+    display: flex;
+    flex-direction: row;
+    z-index: 60;
+    padding-left: 150px;
+    position: fixed;
+}
+
+#NavLink {
+    color: black;
+    font-weight: bolder;
+    float: left;
+    text-align: center;
+    padding: 30px 35px;
+    text-decoration: none;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.menu {
+    width: 100%;
+    position: fixed;
+    background-color: white;
+    z-index: 50;
+}
+
+.m-i {
+    float: left;
+    height: 90px;
+    width: 120px;
+    margin-left: 20px;
+}
+
+#NavLink:hover {
+    background-color: #ffc107;
+    transition: 0.40s;
+    color: white;
+}
+
+.menu-button {
+    z-index: 90;
+    display: none;
+}
+
+.login-btn {
+    font-size: 25px;
+    text-decoration: none;
+    background-color: red;
+    color: white !important;
+    padding: 8px 30px !important;
+    border-radius: 30px;
+    margin: 20px 10px;
+}
+
+.login-btn:hover {
+    background: rgb(214, 75, 75) !important;
+}
+
+.nav-profile i {
+    float: right;
+    margin: 30px 50px;
+    font-size: 30px;
+    cursor: pointer;
+    position: absolute;
+    right: -400px;
+}
+
+.profile-info {
+    float: right;
+    position: absolute;
+    top: 90px;
+    right: -430px;
+    padding: 15px 10px;
+    padding-bottom: 40px;
+    background-color: rgb(255, 223, 223);
+    display: none;
+}
+
+.profile-info h2 {
+    color: darkblue;
+    padding-right: 40px;
+    margin-bottom: 10px;
+
+}
+
+.profile-info a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    margin: 5px 5px;
+    padding: 5px 8px;
+    font-weight: bold;
+    border-radius: 5px;
+    border: 1px solid black;
+    background-color: rgb(89, 166, 0);
+}
+
+.profile-info a:hover {
+    background-color: rgb(72, 131, 4);
+}
+
+/* Google Translate */
+#google_translate_element {
+    width: 100px;
+    float: right;
+    margin-right: 5%;
+}
+
+/* home */
+
+#home {
+    background: linear-gradient(rgba(38, 0, 255, 0.707), rgba(15, 0, 0, 0.8)), url("../image/bg.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.guruji {
+    width: 500px;
+    margin: auto;
+    padding-top: 80px;
+}
+
+.guruji h1 {
+    text-align: center;
+    word-spacing: 15px;
+    margin-top: 200px;
+    font-size: 50px;
+    color: white;
+}
+
+.guruji-logo-btn {
+    margin: auto;
+    margin-top: 25px;
+    text-align: center;
+}
+
+.guruji a {
+    text-decoration: none;
+    background-color: red;
+    font-size: 25px;
+    color: white;
+    padding: 10px 80px;
+    border-radius: 12px;
+    font-weight: lighter;
+}
+
+.guruji a:hover {
+    background-color: rgb(251, 40, 40);
+}
+
+.profile-btn {
+    padding: 5px 50px !important;
+}
+
+/* Heading */
+
+.heading h1 {
+    text-align: center;
+    padding: 30px;
+    font-size: 40px;
+    color: green;
+}
+
+/* video section */
+
+#videos-section {
+    margin: 30px 50px;
+}
+
+.video-group {
+    margin: auto;
+    display: flex;
+}
+
+.video-section-video {
+    width: 400px;
+    margin: auto;
+}
+
+.video-section-video video {
+    height: 250px;
+}
+
+
+/* puja */
+
+#puja-section {
+    margin: 30px 0px;
+    padding-bottom: 30px;
+    background-color: #85C1E9;
+    width: 100%;
+}
+
+.puja-main {
+    padding: 20px 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.puja-main a {
+    margin: auto;
+    text-decoration: none;
+    margin-bottom: 20px;
+}
+
+.puja-card {
+    height: 250px;
+    width: 400px;
+    background-color: white;
+    margin: auto;
+    border-radius: 5%;
+    cursor: pointer;
+}
+
+.puja-card img {
+    height: 190px;
+    width: 400px;
+    border-top-left-radius: 5%;
+    border-top-right-radius: 5%;
+}
+
+.puja-title h1 {
+    text-align: center;
+    color: green;
+}
+
+.puja-card:hover {
+    transition: 0.40s;
+    filter: brightness(0.5);
+}
+
+/* About */
+
+#about-section {
+    padding: 0px 50px;
+    padding-bottom: 40px;
+    background-color: white;
+}
+
+.about-info {
+    margin: auto;
+    text-align: center;
+    font-size: 20px;
+}
+
+/* Contact Us */
+#Contact-section {
+    background-color: #85C1E9;
+    padding: 0px 50px;
+    padding-bottom: 30px;
+}
+
+.contact-info {
+    color: white;
+    font-size: 20px;
+    display: flex;
+}
+
+.con-info {
+    width: 310px;
+    margin: auto;
+    margin-top: 8px;
+}
+
+.con-info h3 {
+    color: rgb(0, 0, 0);
+}
+
+.con-info p {
+    color: rgb(255, 255, 255);
+}
+
+.con-font {
+    padding: 0px 8px 0px 0px;
+    color: rgb(211, 0, 0);
+}
+
+.social-media {
+    width: 300px;
+    height: 50px;
+    display: flex;
+    margin: auto;
+}
+
+.social-media a {
+    margin: auto;
+}
+
+.social-media-icon {
+    font-size: 25px;
+    padding: 8px;
+    margin: auto;
+    border-radius: 5px;
+    background-color: white;
+    color: darkblue;
+}
+
+.social-media-icon:hover {
+    background-color: rgb(0, 181, 253);
+
+}
+
+/* footer */
+
+.footer {
+    text-align: center;
+    padding: 10px 0px;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #36afff;
+    color: white;
+    margin-bottom: -100px;
+}
+
+
+
+/* Signup page, SignIn Page, guruji profile  Booking page form*/
+
+.SignInSignUp {
+    width: 100%;
+    background-color: #2C3E50;
+    margin: auto;
+    display: flex;
+    color: white;
+}
+
+.SSbtn {
+    margin: auto;
+    width: 100%;
+    display: flex;
+}
+
+.signupDiv, .signinDiv {
+    width: 50%;
+    border: 1px solid;
+    text-align: center;
+    padding: 8px 0px;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+#SignUpForm {
+    display: none;
+}
+
+.signinDiv {
+    background-color: darkred;
+}
+
+.ssform {
+    border-top-left-radius: 0% !important;
+    border-top-right-radius: 0% !important;
+}
+
+.signup {
+    background-color: #eeeeee;
+}
+
+.signup-form {
+    margin: auto;
+    width: 600px;
+}
+
+.form {
+    font-weight: lighter;
+    margin: auto;
+    padding-top: 120px;
+    width: 600px;
+    margin-bottom: 100px;
+}
+
+.form form {
+    margin: auto;
+    background-color: white;
+    padding: 50px 100px;
+    border-radius: 20px;
+}
+
+.form-item label {
+    font-size: 20px;
+}
+
+.form-item input, select, textarea {
+    margin: 3px 0px 10px 0px;
+    outline: 0;
+    font-size: 15px;
+    padding: 5px 5px;
+    width: 380px;
+    border: 1px solid #ccc;
+}
+
+.form textarea {
+    max-width: 380px;
+    min-width: 380px;
+    min-height: 50px;
+}
+
+.name-input input {
+    width: 176px;
+}
+
+.fname {
+    margin-right: 8px !important;
+}
+
+.signup-btn {
+    cursor: pointer;
+    color: white;
+    background-color: darkred;
+    font-size: 20px !important;
+    border-radius: 5px;
+    padding: 10px 20px;
+    border: none;
+    width: 395px !important;
+    font-weight: bolder;
+}
+
+.signup-btn:hover {
+    background-color: rgba(139, 0, 0, 0.891);
+}
+
+.booking-form {
+    position: absolute;
+    top: 200px;
+    left: 200px;
+    right: 200px;
+    display: none;
+}
+
+.booking-form form {
+    background-color: whitesmoke;
+    border: 1px solid darkblue;
+    border-radius: 10px;
+}
+
+.close-btn i {
+    float: right;
+    font-size: 50px;
+    color: blue;
+    margin: 15px 20px;
+    cursor: pointer;
+    transition: 0.5s;
+    background-color: white;
+    border-radius: 50%;
+    border: none;
+}
+
+.close-btn i:hover {
+    color: blueviolet;
+}
+
+
+/* guruji Page */
+
+.puja-page {
+    background-color: blue;
+}
+
+.guru-profile {
+    padding-top: 140px;
+    margin-bottom: 50px;
+}
+
+.profile {
+    margin: auto;
+    max-width: 90%;
+    padding: 50px 30px;
+    background-color: white;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+.profile-card {
+    width: 100%;
+    background-color: #2C3E50;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+}
+
+.profile-card h1 {
+    color: white;
+    padding: 5px 0px;
+    background-color: darkred;
+    width: 200px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.profile-card img {
+    width: 200px;
+    height: 200px;
+}
+
+.guru-profile-info {
+    padding: 10px 20px;
+    color: white;
+}
+
+.guru-profile-info h2 {
+    margin-top: 5px;
+}
+
+/* Booking Page */
+.booking-page {
+    background-color: #eeeeee;
+}
+
+.booking {
+    margin: auto;
+    padding-top: 120px;
+    width: 95%;
+}
+
+.booking-info {
+    margin: auto;
+    width: 90%;
+    padding: 30px 40px;
+    display: flex;
+    flex-flow: row wrap;
+    background-color: white;
+
+}
+
+.about-puja {
+    width: 45%;
+}
+
+.about-puja h1 {
+    color: darkred;
+    font-size: 50px;
+}
+
+.about-puja p {
+    margin-top: 10px;
+    font-size: 25px;
+}
+
+.puja-samagri {
+    width: 45%;
+}
+
+.puja-samagri h1 {
+    color: darkred;
+    font-size: 40px;
+}
+
+.puja-samagri table {
+    width: 100%;
+    margin: 20px 10px;
+    border-collapse: collapse;
+    font-weight: bolder;
+}
+
+.puja-samagri td, th {
+    border: 1px solid rgb(196, 196, 255);
+    padding: 8px;
+}
+
+.gurujiPrice {
+    margin: auto;
+    width: 92%;
+    background-color: white;
+    padding: 10px 25px;
+}
+
+.gurujiPrice h1 {
+    font-size: 35px;
+    color: darkred;
+    margin-bottom: 5px;
+}
+
+.gurujiPrice h3 {
+    margin-bottom: 2px;
+    font-size: 20px;
+}
+
+.booking-btn {
+    width: 100%;
+    display: flex;
+    margin: 10px 10px;
+}
+
+.booking-btn button {
+    margin: auto;
+    width: 300px;
+    padding: 5px 30px;
+    font-size: 30px;
+    background-color: blue;
+    color: white;
+    border: 0px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.booking-btn button:hover {
+    background-color: rgb(64, 64, 201);
+}
+
+/* Dashboard */
+.dashboard {
+    background-color: blue;
+}
+
+.dashboard-page {
+    padding-top: 90px;
+    background-color: white;
+}
+
+.dashboard-table table {
+    width: 100%;
+    border-collapse: collapse;
+    font-weight: bolder;
+}
+
+.dashboard-table table tr:nth-child(even) {
+    background-color: green;
+    color: white;
+}
+
+.dashboard-table td, th {
+    border: 1px solid yellow;
+    padding: 8px;
+}
+
+.dashboard-table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: black;
+    color: white;
+}
+
+.data-send-btn {
+    padding: 2px 20px;
+    outline: 0;
+    font-size: 20px;
+    background-color: #2C3E50;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bolder;
+}
+
+.data-send-btn:hover {
+    background-color: #325577;
+}
+
+.guru-select-form {
+    padding: 10px;
+}
+
+#guru-select-form {
+    display: none;
+}
+
+/* gurujiprofile */
+.gurujiprofilepage {
+    background-color: #2C3E50;
+}
+
+.gurujiprofilediv {
+    padding-top: 10%;
+}
+
+.profileCard {
+    margin: auto;
+    display: flex;
+    border-radius: 15px;
+    width: 740px;
+    background-color: white;
+}
+
+.profileCard1 {
+    margin: 50px 0px 50px 50px;
+}
+
+.profileCard2 {
+    margin: 50px 50px 50px 50px;
+}
+
+.profileCard1 img {
+    height: 340px;
+    width: 400px;
+}
+
+.profileCard2 div {
+    margin-bottom: 8px;
+}
+
+.profileCard2 p {
+    font-size: 19px;
+    color: darkred;
+}
